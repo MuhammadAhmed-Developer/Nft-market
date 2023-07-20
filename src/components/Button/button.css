@@ -1,0 +1,7 @@
+.signUp-btn{
+    height: 60px;
+   padding: 0px 30px;
+   border-radius: 20px;
+   background: var(--call-to-action, #A259FF);
+   color: white;
+   }

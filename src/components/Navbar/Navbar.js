@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../accets/images/logo.png';
 import nft from '../../accets/images/NFT Marketplace.png';
 import './navbar.css';
+import Button from '../Button/Button';
 
 export default function Navbar() {
     return (
@@ -26,8 +27,8 @@ export default function Navbar() {
                         </li>
                         <li className="nav-item">
                             <div className=''>
-
-                            <button className='signUp-btn fw-bold '><i className="bi bi-person fw-bold fs-5"></i> Sign Up</button>
+                              <Button title= 'SignUp' class='bi bi-person fs-5 me-1'/>
+                          
                             </div>
                         </li>
                     </ul>

@@ -1,4 +1,4 @@
-body{
+#root{
   background: var(--background, #2B2B2B) !important;
   display: flex;
   flex-direction: column;

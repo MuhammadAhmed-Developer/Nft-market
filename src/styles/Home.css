@@ -1,0 +1,18 @@
+.heading{
+    font-family: Work Sans !important;
+font-size: 67px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; 
+text-transform: capitalize;
+letter-spacing: 2px;
+/* width: 510px; */
+}
+.paragraph{
+align-self: stretch;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 35.2px */
+text-transform: capitalize;
+}
