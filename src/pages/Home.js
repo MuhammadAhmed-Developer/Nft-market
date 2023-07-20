@@ -18,6 +18,22 @@ export default function Home() {
                 <p className='paragraph'>NFT marketplace UI created with Anima for <br/>Figma. Collect, buy and sell art from more<br/> than 20k NFT artists.</p>
                 <br/>
                 <Button title='Get Started' class= 'bi bi-rocket-takeoff fs-5 me-3'/>
+                <br/>
+                <br/>
+                <div className="row">
+                  <div className="col-3">
+                    <h3 className='fw-bold'>240K+</h3>
+                    <p>Total Sale</p>
+                  </div>
+                  <div className="col-3">
+                    <h3 className='fw-bold'>100K+</h3>
+                    <p>Auctions</p>
+                  </div>
+                  <div className="col-3">
+                    <h3 className='fw-bold'>240K+</h3>
+                    <p>Artists</p>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
