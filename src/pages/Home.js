@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import '../styles/Home.css'
 import Button from '../components/Button/Button'
+import Card from '../components/Homecard/Card'
 
 export default function Home() {
   return (
@@ -35,6 +36,9 @@ export default function Home() {
                   </div>
                 </div>
             </div>
+          <div className="col-lg-6 col-md-12 col-sm-12">
+             <Card/>
+          </div>
           </div>
         </div>
       </section>
