@@ -1,0 +1,5 @@
+.card-home{
+    background: var(--background-secondary, #3B3B3B) !important;
+    /* border-radius-top: 20px;  */
+    border-radius: 20px !important;
+}

@@ -1,0 +1,13 @@
+.trending{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 45.6px */
+text-transform: capitalize;
+}
+.checked{
+    letter-spacing: 3px;
+}
+.bi-rocket-takeoff{
+    color: #A259FF;
+}
