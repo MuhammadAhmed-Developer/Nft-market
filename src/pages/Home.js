@@ -24,6 +24,24 @@ import topimg1 from '../accets/images/Topcreator1.png'
 import topimg2 from '../accets/images/top2.png' 
 import topimg3 from '../accets/images/top3.png'
 import topimg4 from '../accets/images/top4.png'
+import topimg5 from '../accets/images/top5.png'
+import topimg6 from '../accets/images/top6.png'
+import topimg7 from '../accets/images/top7.png'
+import topimg8 from '../accets/images/top8.png'
+import topimg9 from '../accets/images/top9.png'
+import topimg10 from '../accets/images/top10.png'
+import topimg11 from '../accets/images/top11.png'
+import topimg12 from '../accets/images/top12.png'
+import BrowseCards from '../components/BrowseCards/BrowseCards';
+import browse1 from '../accets/images/browse1.png';
+import browse2 from '../accets/images/browse2.png';
+import browse3 from '../accets/images/browse3.png';
+import browse4 from '../accets/images/browse4.png';
+import browse5 from '../accets/images/browse5.png';
+import browse6 from '../accets/images/browse6.png';
+import browse7 from '../accets/images/browse7.png';
+import browse8 from '../accets/images/browse8.png';
+
 
 
 
@@ -113,11 +131,70 @@ export default function Home() {
             <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
                 <TopCreators image={topimg4} number='4' name='Juanie'/>
             </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg5} number='5' name='BlueWhale'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg6} number='6' name='mr fox'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg7} number='7' name='Shroomie'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg8} number='8' name='robotica'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg9} number='9' name='RustyRobot'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg10} number='10' name='animakid'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg11} number='11' name='Dotgu'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg12} number='12' name='Ghiblier'/>
+            </div>
            </div>
       </div>
     </div>
   </section>
 
+  {/* ++++++++++++++++++++++Browse Catagories======================================= */}
+
+  <section className='mt-5'>
+    <div className="container mt-5 px-5">
+      <div className="row">
+        <h2 className='fw-bolder mt-5'>Browse Categories</h2>
+      </div>
+      <div className="row mt-5">
+        <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <BrowseCards img={browse1} name="Art"/>
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <BrowseCards img={browse2} name="Collectibles"/>
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <BrowseCards img={browse3} name="Music"/>
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <BrowseCards img={browse4} name="Photography"/>
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <BrowseCards img={browse5} name="Video"/>
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <BrowseCards img={browse6} name="Utility"/>
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <BrowseCards img={browse7} name="Sport"/>
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <BrowseCards img={browse8} name="Virtual Worlds"/>
+        </div>
+      </div>
+    </div>
+  </section>
 
       </main>
       <Footer />
