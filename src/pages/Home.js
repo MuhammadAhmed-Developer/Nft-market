@@ -41,6 +41,15 @@ import browse5 from '../accets/images/browse5.png';
 import browse6 from '../accets/images/browse6.png';
 import browse7 from '../accets/images/browse7.png';
 import browse8 from '../accets/images/browse8.png';
+import brush from '../accets/images/brush.png'
+import collection from '../accets/images/collecion.png'
+import music from '../accets/images/music.png'
+import photo from '../accets/images/photo.png'
+import video from '../accets/images/video.png'
+import utility from '../accets/images/utility.png'
+import sport from '../accets/images/sport.png'
+import world from '../accets/images/world.png'
+
 
 
 
@@ -169,28 +178,28 @@ export default function Home() {
       </div>
       <div className="row mt-5">
         <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
-          <BrowseCards img={browse1} name="Art"/>
+          <BrowseCards img={browse1} name="Art" hoverImg={brush}/>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
-          <BrowseCards img={browse2} name="Collectibles"/>
+          <BrowseCards img={browse2} name="Collectibles" hoverImg={collection}/>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
-          <BrowseCards img={browse3} name="Music"/>
+          <BrowseCards img={browse3} name="Music" hoverImg={music}/>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
-          <BrowseCards img={browse4} name="Photography"/>
+          <BrowseCards img={browse4} name="Photography" hoverImg={photo}/>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
-          <BrowseCards img={browse5} name="Video"/>
+          <BrowseCards img={browse5} name="Video" hoverImg={video}/>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
-          <BrowseCards img={browse6} name="Utility"/>
+          <BrowseCards img={browse6} name="Utility" hoverImg={utility}/>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
-          <BrowseCards img={browse7} name="Sport"/>
+          <BrowseCards img={browse7} name="Sport" hoverImg={sport}/>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
-          <BrowseCards img={browse8} name="Virtual Worlds"/>
+          <BrowseCards img={browse8} name="Virtual Worlds" hoverImg={world}/>
         </div>
       </div>
     </div>
