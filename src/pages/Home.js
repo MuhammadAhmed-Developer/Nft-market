@@ -20,6 +20,11 @@ import men2 from '../accets/images/mencard2.png'
 import minimen from '../accets/images/menmini.png'
 import Outlinebtn from '../components/btnoutline/btnoutline'
 import TopCreators from '../components/TopCreators/TopCreators';
+import topimg1 from '../accets/images/Topcreator1.png'
+import topimg2 from '../accets/images/top2.png' 
+import topimg3 from '../accets/images/top3.png'
+import topimg4 from '../accets/images/top4.png'
+
 
 
 export default function Home() {
@@ -35,7 +40,7 @@ export default function Home() {
                 <h1 className='heading'>Discover <br /> digital art & <br />Collect NFTs</h1>
                 <p className='paragraph'>NFT marketplace UI created with Anima for <br />Figma. Collect, buy and sell art from more<br /> than 20k NFT artists.</p>
                 <br />
-                <Button title='Get Started' class='bi bi-rocket-takeoff fs-5 me-3' />
+                <Button title='Get Started' class='bi bi-rocket-takeoff fs-5 me-3'/>
                 <br />
                 <br />
                 <div className="row">
@@ -93,11 +98,20 @@ export default function Home() {
          <p className='checked'>Checkout Top Rated Creators on the NFT Marketplace</p>
          </div>
          <div className="col-3 mt-5">
-           <Outlinebtn title='View Ranking' class='bi bi-rocket-takeoff fs-5 me-3 '/>
+           <Outlinebtn title='View Ranking' class='bi bi-rocket-takeoff rocket fs-5 me-3 '/>
          </div>
            <div className="row mt-5">
             <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
-                <TopCreators/>
+                <TopCreators image={topimg1} number='1' name='Keepitreal'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg2} number='2' name='DigiLab'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg3} number='3' name='GravityOne'/>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <TopCreators image={topimg4} number='4' name='Juanie'/>
             </div>
            </div>
       </div>
