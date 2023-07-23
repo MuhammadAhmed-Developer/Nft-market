@@ -17,13 +17,13 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2   gap-5 fw-bold mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active mt-2" aria-current="page" href="#">Marketplace</a>
+                            <a className="nav-link active mt-2" aria-current="page" href="#browser">Marketplace</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active mt-2" href="#">Rankings</a>
+                            <a className="nav-link active mt-2" href="#top">Rankings</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active mt-2" href="#">Connect a wallet</a>
+                            <a className="nav-link active mt-2" href="#join-section">Connect a wallet</a>
                         </li>
                         <li className="nav-item">
                             <div className=''>

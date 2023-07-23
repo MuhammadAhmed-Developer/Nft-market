@@ -1,13 +1,44 @@
-.trending{
-font-family: Work Sans;
-font-style: normal;
-font-weight: 600;
-line-height: 120%; /* 45.6px */
-text-transform: capitalize;
+.trending {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 45.6px */
+    text-transform: capitalize;
 }
-.checked{
+
+.checked {
     letter-spacing: 3px;
 }
-.rocket{
+
+.rocket {
     color: #A259FF;
 }
+
+.join-cont {
+    background: var(--background-secondary, #3B3B3B) !important;
+    border-radius: 20px;
+    width: 99%;
+}
+
+.join {
+    letter-spacing: 1px;
+}
+
+.join-colm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.input-email {
+    height: 53px;
+    padding: 0px 30px;
+    border-radius: 15px !important;
+    margin-top: 2px;
+    width: 16rem !important;
+    border: 1px solid #A259FF !important;
+}
+
+
